@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D66E76001621C4FD00FF6865 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D66E75FF1621C4FD00FF6865 /* Cocoa.framework */; };
+		D66E760A1621C4FD00FF6865 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D66E76081621C4FD00FF6865 /* InfoPlist.strings */; };
+		D66E760C1621C4FD00FF6865 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D66E760B1621C4FD00FF6865 /* main.m */; };
+		D66E76101621C4FD00FF6865 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D66E760E1621C4FD00FF6865 /* Credits.rtf */; };
+		D66E76131621C4FD00FF6865 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D66E76121621C4FD00FF6865 /* AppDelegate.m */; };
+		D66E76161621C4FD00FF6865 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D66E76141621C4FD00FF6865 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D66E75FB1621C4FD00FF6865 /* hello-world.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hello-world.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D66E75FF1621C4FD00FF6865 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D66E76021621C4FD00FF6865 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D66E76031621C4FD00FF6865 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D66E76041621C4FD00FF6865 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D66E76071621C4FD00FF6865 /* hello-world-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "hello-world-Info.plist"; sourceTree = "<group>"; };
+		D66E76091621C4FD00FF6865 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D66E760B1621C4FD00FF6865 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D66E760D1621C4FD00FF6865 /* hello-world-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hello-world-Prefix.pch"; sourceTree = "<group>"; };
+		D66E760F1621C4FD00FF6865 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		D66E76111621C4FD00FF6865 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D66E76121621C4FD00FF6865 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D66E76151621C4FD00FF6865 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D66E75F81621C4FD00FF6865 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D66E76001621C4FD00FF6865 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D66E75F01621C4FD00FF6865 = {
+			isa = PBXGroup;
+			children = (
+				D66E76051621C4FD00FF6865 /* hello-world */,
+				D66E75FE1621C4FD00FF6865 /* Frameworks */,
+				D66E75FC1621C4FD00FF6865 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D66E75FC1621C4FD00FF6865 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D66E75FB1621C4FD00FF6865 /* hello-world.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D66E75FE1621C4FD00FF6865 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D66E75FF1621C4FD00FF6865 /* Cocoa.framework */,
+				D66E76011621C4FD00FF6865 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D66E76011621C4FD00FF6865 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D66E76021621C4FD00FF6865 /* AppKit.framework */,
+				D66E76031621C4FD00FF6865 /* CoreData.framework */,
+				D66E76041621C4FD00FF6865 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D66E76051621C4FD00FF6865 /* hello-world */ = {
+			isa = PBXGroup;
+			children = (
+				D66E76111621C4FD00FF6865 /* AppDelegate.h */,
+				D66E76121621C4FD00FF6865 /* AppDelegate.m */,
+				D66E76141621C4FD00FF6865 /* MainMenu.xib */,
+				D66E76061621C4FD00FF6865 /* Supporting Files */,
+			);
+			path = "hello-world";
+			sourceTree = "<group>";
+		};
+		D66E76061621C4FD00FF6865 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D66E76071621C4FD00FF6865 /* hello-world-Info.plist */,
+				D66E76081621C4FD00FF6865 /* InfoPlist.strings */,
+				D66E760B1621C4FD00FF6865 /* main.m */,
+				D66E760D1621C4FD00FF6865 /* hello-world-Prefix.pch */,
+				D66E760E1621C4FD00FF6865 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D66E75FA1621C4FD00FF6865 /* hello-world */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D66E76191621C4FD00FF6865 /* Build configuration list for PBXNativeTarget "hello-world" */;
+			buildPhases = (
+				D66E75F71621C4FD00FF6865 /* Sources */,
+				D66E75F81621C4FD00FF6865 /* Frameworks */,
+				D66E75F91621C4FD00FF6865 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "hello-world";
+			productName = "hello-world";
+			productReference = D66E75FB1621C4FD00FF6865 /* hello-world.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D66E75F21621C4FD00FF6865 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Stein Alver";
+			};
+			buildConfigurationList = D66E75F51621C4FD00FF6865 /* Build configuration list for PBXProject "hello-world" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D66E75F01621C4FD00FF6865;
+			productRefGroup = D66E75FC1621C4FD00FF6865 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D66E75FA1621C4FD00FF6865 /* hello-world */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D66E75F91621C4FD00FF6865 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D66E760A1621C4FD00FF6865 /* InfoPlist.strings in Resources */,
+				D66E76101621C4FD00FF6865 /* Credits.rtf in Resources */,
+				D66E76161621C4FD00FF6865 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D66E75F71621C4FD00FF6865 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D66E760C1621C4FD00FF6865 /* main.m in Sources */,
+				D66E76131621C4FD00FF6865 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D66E76081621C4FD00FF6865 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D66E76091621C4FD00FF6865 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D66E760E1621C4FD00FF6865 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D66E760F1621C4FD00FF6865 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		D66E76141621C4FD00FF6865 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D66E76151621C4FD00FF6865 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D66E76171621C4FD00FF6865 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D66E76181621C4FD00FF6865 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D66E761A1621C4FD00FF6865 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hello-world/hello-world-Prefix.pch";
+				INFOPLIST_FILE = "hello-world/hello-world-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D66E761B1621C4FD00FF6865 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hello-world/hello-world-Prefix.pch";
+				INFOPLIST_FILE = "hello-world/hello-world-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D66E75F51621C4FD00FF6865 /* Build configuration list for PBXProject "hello-world" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D66E76171621C4FD00FF6865 /* Debug */,
+				D66E76181621C4FD00FF6865 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D66E76191621C4FD00FF6865 /* Build configuration list for PBXNativeTarget "hello-world" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D66E761A1621C4FD00FF6865 /* Debug */,
+				D66E761B1621C4FD00FF6865 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D66E75F21621C4FD00FF6865 /* Project object */;
+}
